@@ -1,0 +1,21 @@
+// -----------------------------------------------------------
+// :: :  C  O  S  M  O  :                                ::
+// -----------------------------------------------------------
+// @wabistudios :: cosmo :: composer
+//
+// CREDITS.
+//
+// T.Furby              @furby-tm       <devs@wabi.foundation>
+//
+//         Copyright (C) 2023 Wabi Animation Studios, Ltd. Co.
+//                                        All Rights Reserved.
+// -----------------------------------------------------------
+//  . x x x . o o o . x x x . : : : .    o  x  o    . : : : .
+// -----------------------------------------------------------
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CE_APPICON_NAME = AppIconDev
+CE_VERSION_POSTFIX = -dev
+CE_COPYRIGHT = Copyright © 2023 Wabi Studios

@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Wabi-Studios",
+      "name": "Wabi Studios",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45982888?s=200&v=4",
+      "profile": "https://wabi.foundation",
+      "contributions": [
+        "studio",
+        "design",
+        "multiverse"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Cosmo",
+  "projectOwner": "Wabi-Studios",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}

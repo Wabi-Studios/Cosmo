@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1430"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B658FB2B27DA9E0F00EA4DBD"
+               BuildableName = "Cosmo.app"
+               BlueprintName = "Cosmo"
+               ReferencedContainer = "container:Cosmo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B658FB3C27DA9E1000EA4DBD"
+               BuildableName = "CosmoTests.xctest"
+               BlueprintName = "CosmoTests"
+               ReferencedContainer = "container:Cosmo.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "CosmoUIUnitTests">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testBranchPickerDark()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testBranchPickerLight()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testEffectViewDark()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testEffectViewLight()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testFontPickerViewDark()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testFontPickerViewLight()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testHelpButtonDark()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testHelpButtonLight()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testSegmentedControlDark()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testSegmentedControlLight()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testSegmentedControlProminentDark()">
+               </Test>
+               <Test
+                  Identifier = "CosmoUIUnitTests/testSegmentedControlProminentLight()">
+               </Test>
+               <Test
+                  Identifier = "DocumentsUnitTests/testSplitViewControllerProducedHapticFeedback()">
+               </Test>
+               <Test
+                  Identifier = "DocumentsUnitTests/testSplitViewControllerProducedHapticFeedbackOnceWhenPlentyChangesOccur()">
+               </Test>
+               <Test
+                  Identifier = "DocumentsUnitTests/testSplitViewControllerSnappedWhenWidthInAppropriateRange()">
+               </Test>
+               <Test
+                  Identifier = "DocumentsUnitTests/testSplitViewControllerStopSnappedWhenWidthIsHigherAppropriateRange()">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests/testRecentJSFileDarkSnapshot()">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests/testRecentJSFileLightSnapshot()">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests/testRecentProjectItemDarkSnapshot()">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests/testRecentProjectItemLightSnapshot()">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests/testWelcomeActionViewDarkSnapshot()">
+               </Test>
+               <Test
+                  Identifier = "WelcomeModuleUnitTests/testWelcomeActionViewLightSnapshot()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B658FB2B27DA9E0F00EA4DBD"
+            BuildableName = "Cosmo.app"
+            BlueprintName = "Cosmo"
+            ReferencedContainer = "container:Cosmo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B658FB2B27DA9E0F00EA4DBD"
+            BuildableName = "Cosmo.app"
+            BlueprintName = "Cosmo"
+            ReferencedContainer = "container:Cosmo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

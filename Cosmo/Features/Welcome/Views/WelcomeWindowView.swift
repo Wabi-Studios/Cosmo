@@ -1,0 +1,74 @@
+/* -----------------------------------------------------------
+ * :: :  C  O  S  M  O  :                                ::
+ * -----------------------------------------------------------
+ * @wabistudios :: cosmo :: composer
+ *
+ * CREDITS.
+ *
+ * T.Furby              @furby-tm       <devs@wabi.foundation>
+ *
+ *         Copyright (C) 2023 Wabi Animation Studios, Ltd. Co.
+ *                                        All Rights Reserved.
+ * -----------------------------------------------------------
+ *  . x x x . o o o . x x x . : : : .    o  x  o    . : : : .
+ * ----------------------------------------------------------- */
+
+import SwiftUI
+
+struct WelcomeWindowView: View
+{
+  private let openDocument: (URL?, @escaping () -> Void) -> Void
+  private let newDocument: () -> Void
+  private let dismissWindow: () -> Void
+  private let shellClient: ShellClient
+
+  init(
+    shellClient: ShellClient,
+    openDocument: @escaping (URL?, @escaping () -> Void) -> Void,
+    newDocument: @escaping () -> Void,
+    dismissWindow: @escaping () -> Void
+  )
+  {
+    self.shellClient = shellClient
+    self.openDocument = openDocument
+    self.newDocument = newDocument
+    self.dismissWindow = dismissWindow
+  }
+
+  var body: some View
+  {
+    HStack(spacing: 0)
+    {
+      WelcomeView(
+        shellClient: shellClient,
+        openDocument: openDocument,
+        newDocument: newDocument,
+        dismissWindow: dismissWindow
+      )
+      RecentProjectsListView(openDocument: openDocument, dismissWindow: dismissWindow)
+        .frame(width: 300)
+    }
+    .edgesIgnoringSafeArea(.top)
+    .onDrop(of: [.fileURL], isTargeted: .constant(true))
+    { providers in
+      NSApp.activate(ignoringOtherApps: true)
+      providers.forEach
+      {
+        _ = $0.loadDataRepresentation(for: .fileURL)
+        { data, _ in
+          if let data, let url = URL(dataRepresentation: data, relativeTo: nil)
+          {
+            Task
+            {
+              try? await CosmoDocumentController
+                .shared
+                .openDocument(withContentsOf: url, display: true)
+            }
+          }
+        }
+      }
+      dismissWindow()
+      return true
+    }
+  }
+}
