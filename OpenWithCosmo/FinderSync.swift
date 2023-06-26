@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -13,7 +13,7 @@
  *  . x x x . o o o . x x x . : : : .    o  x  o    . : : : .
  * ----------------------------------------------------------- */
 
-/* 
+/*
  * For anyone working on this file.
  * print does not output to the console, use NSLog.
  * open "console.app" to debug,

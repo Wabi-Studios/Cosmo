@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -15,7 +15,7 @@
 
 import Foundation
 
-/// TODO: DOCS (Ziyuan Zhao)
+// TODO: DOCS (Ziyuan Zhao)
 struct SearchModeModel
 {
   let title: String

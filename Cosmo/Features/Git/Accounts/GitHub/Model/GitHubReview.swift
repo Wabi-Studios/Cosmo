@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -18,7 +18,7 @@ import Foundation
   import FoundationNetworking
 #endif
 
-/// TODO: DOCS (Nanashi Li)
+// TODO: DOCS (Nanashi Li)
 struct GitHubReview
 {
   let body: String

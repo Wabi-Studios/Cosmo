@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -21,7 +21,7 @@ struct GitCheckoutBranchView: View
   let shellClient: ShellClient
   @Binding var isPresented: Bool
   @Binding var repoPath: String
-  /// TODO: This has to be derived from git
+  // TODO: This has to be derived from git
   @State var selectedBranch = "main"
   init(
     isPresented: Binding<Bool>,

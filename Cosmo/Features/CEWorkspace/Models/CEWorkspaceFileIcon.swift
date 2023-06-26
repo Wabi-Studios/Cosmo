@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -15,7 +15,7 @@
 
 import SwiftUI
 
-/// TODO: DOCS (Nanashi Li)
+// TODO: DOCS (Nanashi Li)
 enum FileIcon
 {
   // swiftlint:disable identifier_name

@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -111,7 +111,7 @@ private extension GeneralSettingsView
     }
   }
 
-  /// TODO: Implement reflecting Show Issues preference and remove disabled modifier
+  // TODO: Implement reflecting Show Issues preference and remove disabled modifier
   var showIssues: some View
   {
     Picker("Show Issues", selection: $settings.showIssues)
@@ -262,7 +262,7 @@ private extension GeneralSettingsView
     }
   }
 
-  /// TODO: Implement reflecting Issue Navigator Detail preference and remove disabled modifier
+  // TODO: Implement reflecting Issue Navigator Detail preference and remove disabled modifier
   var issueNavigatorDetail: some View
   {
     Picker("Issue Navigator Detail", selection: $settings.issueNavigatorDetail)
@@ -275,7 +275,7 @@ private extension GeneralSettingsView
     .disabled(true)
   }
 
-  /// TODO: Implement reset for Don't Ask Me warnings Button and remove disabled modifier
+  // TODO: Implement reset for Don't Ask Me warnings Button and remove disabled modifier
   var dialogWarnings: some View
   {
     LabeledContent("Dialog Warnings")

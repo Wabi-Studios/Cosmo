@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -16,7 +16,7 @@
 import Foundation
 import Security
 
-/// TODO: DOCS (Nanashi Li)
+// TODO: DOCS (Nanashi Li)
 class CosmoKeychain
 {
   var lastQueryParameters: [String: Any]? // Used by the unit tests

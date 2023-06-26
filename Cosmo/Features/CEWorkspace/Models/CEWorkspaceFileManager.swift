@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -24,7 +24,7 @@ final class CEWorkspaceFileManager
     case fileNotExist
   }
 
-  /// TODO: See if this needs to be removed, it isn't used anymore
+  // TODO: See if this needs to be removed, it isn't used anymore
   private var subject = CurrentValueSubject<[CEWorkspaceFile], Never>([])
   private var isRunning = false
   private var anotherInstanceRan = 0

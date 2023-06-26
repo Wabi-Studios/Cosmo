@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -15,7 +15,7 @@
 
 import Foundation
 
-/* 
+/*
  The object of this class intended to be a hearth of command palette. This object only exists as singleton.
   In Order to access its instance use `CommandManager.shared`
 

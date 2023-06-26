@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -16,7 +16,7 @@
 import Foundation
 import SwiftUI
 
-/// TODO: DOCS (Aleksi Puttonen)
+// TODO: DOCS (Aleksi Puttonen)
 extension GitCheckoutBranchView
 {
   func getBranches() -> [String]

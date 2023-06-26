@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------
- * :: :  C  O  S  M  O  :                                ::
+ * :: :  C  O  S  M  O  :                                   ::
  * -----------------------------------------------------------
- * @wabistudios :: cosmo :: composer
+ * @wabistudios :: cosmos :: realms
  *
  * CREDITS.
  *
@@ -15,6 +15,12 @@
 
 import CodeEditSymbols
 import SwiftUI
+
+@available(iOS 17, macOS 14, *)
+public extension NSColor
+{
+  static let textInsertionPoint = NSColor.textInsertionPointColor
+}
 
 final class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject
 {
