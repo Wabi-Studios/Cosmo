@@ -1,6 +1,10 @@
 name: Release Drafter
 
 on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
   # Allow running it manually in case we forget to label a PR before merging
   workflow_dispatch:
   workflow_call:

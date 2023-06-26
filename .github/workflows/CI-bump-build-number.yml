@@ -1,5 +1,9 @@
 name: CI - Update Build Number
 on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
   workflow_dispatch:
 jobs:
   upadate-build-number:
