@@ -6,6 +6,8 @@ disabled_rules:
   - superfluous_disable_command
   - switch_case_alignment
   - cyclomatic_complexity
+  - statement_position
+  - closure_spacing
 
 type_name:
   excluded:

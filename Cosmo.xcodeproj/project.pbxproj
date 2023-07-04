@@ -3817,7 +3817,7 @@
 			repositoryURL = "https://github.com/Wabi-Studios/CodeEditTextView.git";
 			requirement = {
 				kind = exactVersion;
-				version = 0.6.7;
+				version = 0.7.5;
 			};
 		};
 		58F2EB1C292FB954004A9BDE /* XCRemoteSwiftPackageReference "Sparkle" */ = {

@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Wabi-Studios/CodeEditTextView.git",
       "state" : {
-        "revision" : "db31eb8af5936d4fed430ad8d5704986beff5b8d",
-        "version" : "0.6.7"
+        "revision" : "72fe9eedd0e31e4f60458a93d5ef7e62674e47b3",
+        "version" : "0.7.5"
       }
     },
     {
@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Wabi-Studios/STTextView.git",
       "state" : {
-        "revision" : "27f71dcdbfbe586fb587ed894c2250082316e7f0",
-        "version" : "0.7.1"
+        "revision" : "797932690caf153efb162e5458d8042b2a32e3b8",
+        "version" : "0.7.9"
       }
     },
     {
@@ -104,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/siteline/SwiftUI-Introspect",
       "state" : {
-        "revision" : "dafd88cf0cc09d906dcef9d042743ae13fcff0d4",
-        "version" : "0.6.3"
+        "revision" : "8bf15ad33a529359200bd419a72ca2dda841089b",
+        "version" : "0.8.0"
       }
     },
     {
