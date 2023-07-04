@@ -6,6 +6,26 @@
         <language>en</language>
         
             
+                
+                    <item>
+                        <title>v1.0.0.2</title>
+                        <description><![CDATA[<h2 id="whats-changed">What’s Changed</h2>
+<ul>
+  <li>Bump Build Number to 1 by @github-actions in https://github.com/Wabi-Studios/Cosmo/pull/1</li>
+</ul>
+
+<h2 id="new-contributors">New Contributors</h2>
+<ul>
+  <li>@github-actions made their first contribution in https://github.com/Wabi-Studios/Cosmo/pull/1</li>
+</ul>
+
+<p><strong>Full Changelog</strong>: https://github.com/Wabi-Studios/Cosmo/compare/v1.0.0.1…v1.0.0.2</p>
+]]></description>
+                        <pubDate>Tue, 04 Jul 2023 09:36:19 +0000</pubDate>
+                        
+                    </item>
+                
+            
         
             
                 
