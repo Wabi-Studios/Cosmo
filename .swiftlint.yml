@@ -9,6 +9,10 @@ disabled_rules:
   - statement_position
   - closure_spacing
   - function_body_length
+  - type_body_length
+  - file_length
+  - orphaned_doc_comment
+  - unneeded_synthesized_initializer
 
 type_name:
   excluded:
