@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Cosmo</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        
+            
+        
+            
+                
+                    <item>
+                        <title>v1.0.0.1</title>
+                        <description><![CDATA[
+]]></description>
+                        <pubDate>Tue, 04 Jul 2023 08:35:46 +0000</pubDate>
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title></title>
+                        <description><![CDATA[
+]]></description>
+                        <pubDate>Mon, 26 Jun 2023 07:13:25 +0000</pubDate>
+                        
+                    </item>
+                
+            
+        
+    </channel>
+</rss>
+
